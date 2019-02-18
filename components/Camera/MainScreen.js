@@ -24,7 +24,7 @@ export default class MainScreen extends Component {
     if (isSeatBelt == "Seat Belt") {
       this.setState({correct: count})
     }
-    if (count == 1) {
+    if (count == 3) {
       this.setState({check: true, correct: 0})
       setTimeout(() => { Actions.Driving() },2000)
     }

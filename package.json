@@ -13,6 +13,7 @@
     "react-native-camera-tflite": "0.0.3",
     "react-native-responsive-screen": "^1.2.0",
     "react-native-router-flux": "^4.0.6",
+    "react-native-user-avatar": "^1.0.3",
     "react-native-vector-icons": "^6.3.0"
   },
   "devDependencies": {

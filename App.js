@@ -24,7 +24,7 @@ const App = () => (
         title="Log in"
         navigationBarStyle={styles.navBar}
         titleStyle={styles.navTitle}
-
+        initial
       />
       <Scene 
         key="Camera" 
@@ -39,6 +39,8 @@ const App = () => (
         title="Driving"
         navigationBarStyle={styles.navBar}
         titleStyle={styles.navTitle}
+        left={() => null}
+        
       />
       <Scene 
         key="Profile" 
@@ -48,7 +50,7 @@ const App = () => (
         titleStyle={styles.navTitle}
         renderBackButton={() => null}
         left={() => null}
-        initial
+        
       />
     </Stack>
   </Router>
